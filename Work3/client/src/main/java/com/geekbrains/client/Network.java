@@ -45,6 +45,7 @@ public class Network {
                 connect();
             }
             out.writeUTF("/auth " + login + " " + password);
+
         } catch (IOException e) {
             e.printStackTrace();
         }
